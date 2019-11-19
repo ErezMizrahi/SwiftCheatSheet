@@ -7,5 +7,5 @@
  
  **Algorithms**
  
- -[Sort](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Algorithms)
+ - [Sort](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Algorithms)
  
