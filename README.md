@@ -13,3 +13,8 @@
  
  - [Sort](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Algorithms)
  
+**Extensions**
+- [String](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Extentions/String)
+- [Array](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Extentions/Arrays)
+- [Dictionary](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Extentions/Dictionary)
+- [General](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Extentions)
