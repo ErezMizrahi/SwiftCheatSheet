@@ -6,5 +6,6 @@
  - [Data Structures](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Data%20Structures)
  
  **Algorithms**
+ 
  -[Sort](https://github.com/ErezMizrahi/SwiftCheatSheet/tree/master/SwiftCheatSheet/Algorithms)
  
