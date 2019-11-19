@@ -15,8 +15,25 @@
 		6404AE6B2372C7640056B321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6404AE692372C7640056B321 /* LaunchScreen.storyboard */; };
 		6452464F2379388000833B15 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6452464E2379388000833B15 /* GenericTableViewController.swift */; };
 		645246512379414C00833B15 /* TableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645246502379414C00833B15 /* TableViewExample.swift */; };
+		64DD0BC2237D7610003E1EE9 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD0BC1237D7610003E1EE9 /* Stack.swift */; };
+		64F45FCF2382C21D00D441A2 /* SwiftCheatSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FCE2382C21D00D441A2 /* SwiftCheatSheetTests.swift */; };
+		64F45FDD2382C6F800D441A2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FDC2382C6F800D441A2 /* Queue.swift */; };
+		64F45FE12382CD3000D441A2 /* Bubble Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FE02382CD3000D441A2 /* Bubble Sort.swift */; };
+		64F45FE32382D44D00D441A2 /* Selection Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FE22382D44D00D441A2 /* Selection Sort.swift */; };
+		64F45FE52382D65200D441A2 /* Insertion Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FE42382D65200D441A2 /* Insertion Sort.swift */; };
+		64F45FE72382D75F00D441A2 /* Merge Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FE62382D75F00D441A2 /* Merge Sort.swift */; };
 		64FA629F237845A000038829 /* JSHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA629E237845A000038829 /* JSHelperMethods.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64F45FD12382C21D00D441A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6404AE532372C7620056B321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6404AE5A2372C7620056B321;
+			remoteInfo = SwiftCheatSheet;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6404AE5B2372C7620056B321 /* SwiftCheatSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCheatSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,11 +46,27 @@
 		6404AE6C2372C7640056B321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6452464E2379388000833B15 /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
 		645246502379414C00833B15 /* TableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExample.swift; sourceTree = "<group>"; };
+		64DD0BC1237D7610003E1EE9 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		64F45FCC2382C21D00D441A2 /* SwiftCheatSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCheatSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F45FCE2382C21D00D441A2 /* SwiftCheatSheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCheatSheetTests.swift; sourceTree = "<group>"; };
+		64F45FD02382C21D00D441A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F45FDC2382C6F800D441A2 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		64F45FE02382CD3000D441A2 /* Bubble Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bubble Sort.swift"; sourceTree = "<group>"; };
+		64F45FE22382D44D00D441A2 /* Selection Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Selection Sort.swift"; sourceTree = "<group>"; };
+		64F45FE42382D65200D441A2 /* Insertion Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insertion Sort.swift"; sourceTree = "<group>"; };
+		64F45FE62382D75F00D441A2 /* Merge Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Sort.swift"; sourceTree = "<group>"; };
 		64FA629E237845A000038829 /* JSHelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSHelperMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6404AE582372C7620056B321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F45FC92382C21D00D441A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				6404AE5D2372C7620056B321 /* SwiftCheatSheet */,
+				64F45FCD2382C21D00D441A2 /* SwiftCheatSheetTests */,
 				6404AE5C2372C7620056B321 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				6404AE5B2372C7620056B321 /* SwiftCheatSheet.app */,
+				64F45FCC2382C21D00D441A2 /* SwiftCheatSheetTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +97,8 @@
 		6404AE5D2372C7620056B321 /* SwiftCheatSheet */ = {
 			isa = PBXGroup;
 			children = (
+				64F45FDE2382CC8000D441A2 /* Algorithms */,
+				64DD0BBE237D7398003E1EE9 /* Data Structures */,
 				6452464D2379372100833B15 /* Generic TableView */,
 				64FA629B2378443900038829 /* SupportingFiles */,
 				64FA629D2378445E00038829 /* WKWebKit */,
@@ -78,6 +115,59 @@
 				645246502379414C00833B15 /* TableViewExample.swift */,
 			);
 			path = "Generic TableView";
+			sourceTree = "<group>";
+		};
+		64DD0BBE237D7398003E1EE9 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				64F45FDB2382C6CA00D441A2 /* Queue */,
+				64DD0BBF237D7602003E1EE9 /* Stack */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		64DD0BBF237D7602003E1EE9 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				64DD0BC1237D7610003E1EE9 /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		64F45FCD2382C21D00D441A2 /* SwiftCheatSheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				64F45FCE2382C21D00D441A2 /* SwiftCheatSheetTests.swift */,
+				64F45FD02382C21D00D441A2 /* Info.plist */,
+			);
+			path = SwiftCheatSheetTests;
+			sourceTree = "<group>";
+		};
+		64F45FDB2382C6CA00D441A2 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				64F45FDC2382C6F800D441A2 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		64F45FDE2382CC8000D441A2 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				64F45FDF2382CC8600D441A2 /* Sort */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		64F45FDF2382CC8600D441A2 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				64F45FE02382CD3000D441A2 /* Bubble Sort.swift */,
+				64F45FE22382D44D00D441A2 /* Selection Sort.swift */,
+				64F45FE42382D65200D441A2 /* Insertion Sort.swift */,
+				64F45FE62382D75F00D441A2 /* Merge Sort.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 		64FA629B2378443900038829 /* SupportingFiles */ = {
@@ -128,6 +218,24 @@
 			productReference = 6404AE5B2372C7620056B321 /* SwiftCheatSheet.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F45FCB2382C21D00D441A2 /* SwiftCheatSheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F45FD32382C21D00D441A2 /* Build configuration list for PBXNativeTarget "SwiftCheatSheetTests" */;
+			buildPhases = (
+				64F45FC82382C21D00D441A2 /* Sources */,
+				64F45FC92382C21D00D441A2 /* Frameworks */,
+				64F45FCA2382C21D00D441A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F45FD22382C21D00D441A2 /* PBXTargetDependency */,
+			);
+			name = SwiftCheatSheetTests;
+			productName = SwiftCheatSheetTests;
+			productReference = 64F45FCC2382C21D00D441A2 /* SwiftCheatSheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +248,10 @@
 				TargetAttributes = {
 					6404AE5A2372C7620056B321 = {
 						CreatedOnToolsVersion = 11.1;
+					};
+					64F45FCB2382C21D00D441A2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 6404AE5A2372C7620056B321;
 					};
 				};
 			};
@@ -157,6 +269,7 @@
 			projectRoot = "";
 			targets = (
 				6404AE5A2372C7620056B321 /* SwiftCheatSheet */,
+				64F45FCB2382C21D00D441A2 /* SwiftCheatSheetTests */,
 			);
 		};
 /* End PBXProject section */
@@ -172,6 +285,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F45FCA2382C21D00D441A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -181,14 +301,36 @@
 			files = (
 				645246512379414C00833B15 /* TableViewExample.swift in Sources */,
 				6452464F2379388000833B15 /* GenericTableViewController.swift in Sources */,
+				64DD0BC2237D7610003E1EE9 /* Stack.swift in Sources */,
+				64F45FE52382D65200D441A2 /* Insertion Sort.swift in Sources */,
+				64F45FDD2382C6F800D441A2 /* Queue.swift in Sources */,
 				6404AE632372C7620056B321 /* allowUniversalAccessFromFileURLs.swift in Sources */,
+				64F45FE32382D44D00D441A2 /* Selection Sort.swift in Sources */,
+				64F45FE72382D75F00D441A2 /* Merge Sort.swift in Sources */,
 				64FA629F237845A000038829 /* JSHelperMethods.swift in Sources */,
 				6404AE5F2372C7620056B321 /* AppDelegate.swift in Sources */,
+				64F45FE12382CD3000D441A2 /* Bubble Sort.swift in Sources */,
 				6404AE612372C7620056B321 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F45FC82382C21D00D441A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F45FCF2382C21D00D441A2 /* SwiftCheatSheetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64F45FD22382C21D00D441A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6404AE5A2372C7620056B321 /* SwiftCheatSheet */;
+			targetProxy = 64F45FD12382C21D00D441A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6404AE642372C7620056B321 /* Main.storyboard */ = {
@@ -360,6 +502,46 @@
 			};
 			name = Release;
 		};
+		64F45FD42382C21D00D441A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XHC296GRYH;
+				INFOPLIST_FILE = SwiftCheatSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erez8.SwiftCheatSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCheatSheet.app/SwiftCheatSheet";
+			};
+			name = Debug;
+		};
+		64F45FD52382C21D00D441A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XHC296GRYH;
+				INFOPLIST_FILE = SwiftCheatSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erez8.SwiftCheatSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCheatSheet.app/SwiftCheatSheet";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,6 +559,15 @@
 			buildConfigurations = (
 				6404AE702372C7640056B321 /* Debug */,
 				6404AE712372C7640056B321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F45FD32382C21D00D441A2 /* Build configuration list for PBXNativeTarget "SwiftCheatSheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F45FD42382C21D00D441A2 /* Debug */,
+				64F45FD52382C21D00D441A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
