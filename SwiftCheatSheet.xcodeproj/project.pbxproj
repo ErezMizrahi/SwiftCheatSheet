@@ -29,6 +29,7 @@
 		64F45FF52383CD6300D441A2 /* Array To Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FF42383CD6300D441A2 /* Array To Json.swift */; };
 		64F45FF72383CDF100D441A2 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FF62383CDF100D441A2 /* Regex.swift */; };
 		64F45FF92383CE3C00D441A2 /* HardwareKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FF82383CE3C00D441A2 /* HardwareKey.swift */; };
+		64F45FFB2383D17B00D441A2 /* KeyPath title Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F45FFA2383D17B00D441A2 /* KeyPath title Change.swift */; };
 		64FA629F237845A000038829 /* JSHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA629E237845A000038829 /* JSHelperMethods.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		64F45FF42383CD6300D441A2 /* Array To Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array To Json.swift"; sourceTree = "<group>"; };
 		64F45FF62383CDF100D441A2 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		64F45FF82383CE3C00D441A2 /* HardwareKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareKey.swift; sourceTree = "<group>"; };
+		64F45FFA2383D17B00D441A2 /* KeyPath title Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyPath title Change.swift"; sourceTree = "<group>"; };
 		64FA629E237845A000038829 /* JSHelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSHelperMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +249,7 @@
 			children = (
 				6404AE622372C7620056B321 /* allowUniversalAccessFromFileURLs.swift */,
 				64FA629E237845A000038829 /* JSHelperMethods.swift */,
+				64F45FFA2383D17B00D441A2 /* KeyPath title Change.swift */,
 			);
 			path = WKWebKit;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				64F45FDD2382C6F800D441A2 /* Queue.swift in Sources */,
 				6404AE632372C7620056B321 /* allowUniversalAccessFromFileURLs.swift in Sources */,
 				64F45FEF2383CCBF00D441A2 /* String To Json.swift in Sources */,
+				64F45FFB2383D17B00D441A2 /* KeyPath title Change.swift in Sources */,
 				64F45FE32382D44D00D441A2 /* Selection Sort.swift in Sources */,
 				64F45FF32383CD2F00D441A2 /* containsValue.swift in Sources */,
 				64F45FE72382D75F00D441A2 /* Merge Sort.swift in Sources */,
