@@ -11,14 +11,7 @@ import Foundation
 
 //FIFO
 
-protocol Queue {
-    associatedtype Element
 
-    mutating func enqueue(_ element: Element)
-    mutating func dequeue() -> Element?
-    var isEmpty: Bool { get }
-    var peek: Element? { get }
-}
 
 
 struct QueueArray<T>: Queue {
