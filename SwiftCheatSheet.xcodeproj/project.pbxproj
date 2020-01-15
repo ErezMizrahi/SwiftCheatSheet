@@ -16,6 +16,8 @@
 		64508E172385645E002C9669 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64508E162385645E002C9669 /* Heap.swift */; };
 		64508E192385820C002C9669 /* Priority Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64508E182385820C002C9669 /* Priority Queue.swift */; };
 		64508E1B238583E9002C9669 /* QueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64508E1A238583E9002C9669 /* QueueProtocol.swift */; };
+		64508E1E238663C4002C9669 /* Graph protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64508E1D238663C4002C9669 /* Graph protocol.swift */; };
+		64508E2023866445002C9669 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64508E1F23866445002C9669 /* Graph.swift */; };
 		6452464F2379388000833B15 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6452464E2379388000833B15 /* GenericTableViewController.swift */; };
 		645246512379414C00833B15 /* TableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645246502379414C00833B15 /* TableViewExample.swift */; };
 		64B58C282385365000A44018 /* Binary Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B58C272385365000A44018 /* Binary Trees.swift */; };
@@ -60,6 +62,8 @@
 		64508E162385645E002C9669 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		64508E182385820C002C9669 /* Priority Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Priority Queue.swift"; sourceTree = "<group>"; };
 		64508E1A238583E9002C9669 /* QueueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueProtocol.swift; sourceTree = "<group>"; };
+		64508E1D238663C4002C9669 /* Graph protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph protocol.swift"; sourceTree = "<group>"; };
+		64508E1F23866445002C9669 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		6452464E2379388000833B15 /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
 		645246502379414C00833B15 /* TableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExample.swift; sourceTree = "<group>"; };
 		64B58C272385365000A44018 /* Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Trees.swift"; sourceTree = "<group>"; };
@@ -135,6 +139,15 @@
 			path = SwiftCheatSheet;
 			sourceTree = "<group>";
 		};
+		64508E1C238663AF002C9669 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				64508E1D238663C4002C9669 /* Graph protocol.swift */,
+				64508E1F23866445002C9669 /* Graph.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		6452464D2379372100833B15 /* Generic TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +178,7 @@
 		64DD0BBE237D7398003E1EE9 /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				64508E1C238663AF002C9669 /* Graph */,
 				64B58C262385361F00A44018 /* Trees */,
 				64F45FDB2382C6CA00D441A2 /* Queue */,
 				64DD0BBF237D7602003E1EE9 /* Stack */,
@@ -392,7 +406,9 @@
 				64F45FED2383CBEB00D441A2 /* Clear Quotes.swift in Sources */,
 				64DD0BC2237D7610003E1EE9 /* Stack.swift in Sources */,
 				64F45FF72383CDF100D441A2 /* Regex.swift in Sources */,
+				64508E2023866445002C9669 /* Graph.swift in Sources */,
 				64B58C282385365000A44018 /* Binary Trees.swift in Sources */,
+				64508E1E238663C4002C9669 /* Graph protocol.swift in Sources */,
 				64F45FF92383CE3C00D441A2 /* HardwareKey.swift in Sources */,
 				64F45FE52382D65200D441A2 /* Insertion Sort.swift in Sources */,
 				64F45FDD2382C6F800D441A2 /* Queue.swift in Sources */,

@@ -6,4 +6,14 @@
 //  Copyright © 2019 Erez Mizrahi. All rights reserved.
 //
 
-import Foundation
+protocol Graph {
+    associatedtype Element
+    
+    typealias Edge = GraphEdge<Element>
+    typealias Vertex = Edge.Vertex
+    
+    var vertices: [Vertex] { get }
+    
+    @discardableResult mutating func addVertex(_: Element) -> Vertex
+    func getEdge(from: Vertex)-> [Edge]
+}
