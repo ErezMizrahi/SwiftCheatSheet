@@ -19,7 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
         window?.makeKeyAndVisible()
-        window?.rootViewController = SomeListController()
+        /* un comment the under line to see the generic tableview */
+//        window?.rootViewController = SomeListController()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
