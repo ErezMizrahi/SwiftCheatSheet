@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Heat Meter View Controller-->
+        <scene sceneID="REr-sB-9W8">
+            <objects>
+                <viewController storyboardIdentifier="HeatMeterViewController" id="Skv-0l-fOa" customClass="HeatMeterViewController" customModule="SwiftCheatSheet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CDl-TC-sLl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFF-6A-lm3" customClass="CloseButton" customModule="SwiftCheatSheet" customModuleProvider="target">
+                                <rect key="frame" x="177" y="749" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="NLg-nf-Asy"/>
+                                    <constraint firstAttribute="height" constant="60" id="cwZ-20-orh"/>
+                                </constraints>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAh-VP-qoe" customClass="HeatMeter" customModule="SwiftCheatSheet" customModuleProvider="target">
+                                <rect key="frame" x="87" y="246" width="240" height="414"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="1Gc-2R-iZf"/>
+                                    <constraint firstAttribute="height" constant="414" id="j77-uD-hDj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IFF-6A-lm3" firstAttribute="centerX" secondItem="5yZ-46-5YP" secondAttribute="centerX" id="IIl-su-AUW"/>
+                            <constraint firstItem="5yZ-46-5YP" firstAttribute="bottom" secondItem="IFF-6A-lm3" secondAttribute="bottom" constant="53" id="bXc-t1-QZr"/>
+                            <constraint firstItem="hAh-VP-qoe" firstAttribute="centerX" secondItem="5yZ-46-5YP" secondAttribute="centerX" id="jcn-T9-JaJ"/>
+                            <constraint firstItem="hAh-VP-qoe" firstAttribute="centerY" secondItem="5yZ-46-5YP" secondAttribute="centerY" id="qFk-fZ-wpV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5yZ-46-5YP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTx-Ex-yT3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1042.0289855072465" y="153.34821428571428"/>
+        </scene>
+        <!--Circle Tracker View Controller-->
+        <scene sceneID="WFW-yK-wNv">
+            <objects>
+                <viewController storyboardIdentifier="CircleTrackerViewController" id="Oqi-CI-iCH" customClass="CircleTrackerViewController" customModule="SwiftCheatSheet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9r4-lO-Azh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="FYI-Ny-GOk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LvS-3U-bUf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-339" y="153"/>
+        </scene>
+        <!--Clock View Controller-->
+        <scene sceneID="V1f-hb-7UG">
+            <objects>
+                <viewController storyboardIdentifier="ClockViewController" id="4pB-O9-ypn" customClass="ClockViewController" customModule="SwiftCheatSheet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T85-gA-HG3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="RYD-sP-jzm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eim-8Q-C1c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="153"/>
+        </scene>
+    </scenes>
+</document>
